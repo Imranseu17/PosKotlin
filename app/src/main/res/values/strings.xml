@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Pos-Kotlin</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="password_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="preference_file_key" translatable="false">preference_file_key</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="preference_access_token" translatable="false">preference_access_token</string>
+    <string name="preference_is_service_check" translatable="false">preference_is_service_check</string>
+</resources>
