@@ -117,8 +117,8 @@ class DeshBoardActivity : AppCompatActivity() {
             })
             .setPositiveListener(getString(R.string.yes), object : ChooseAlertDialog.OnPositiveListener {
                 override fun onClick(dialog: ChooseAlertDialog) {
-                    SharedDataSaveLoad.remove(baseContext, getString(R.string.preference_is_service_check))
-                    SharedDataSaveLoad.remove(baseContext, getString(R.string.preference_access_token))
+                    SharedDataSaveLoad.remove(this@DeshBoardActivity, getString(R.string.preference_is_service_check))
+                    SharedDataSaveLoad.remove(this@DeshBoardActivity, getString(R.string.preference_access_token))
                     dialog.dismiss()
                     finish()
 

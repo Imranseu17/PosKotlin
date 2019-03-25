@@ -9,12 +9,14 @@ import android.graphics.drawable.shapes.RoundRectShape
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
-import android.view.WindowManager
 import android.view.animation.Animation
 import android.view.animation.AnimationSet
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
+import android.support.annotation.NonNull
+
+
 
 class ChooseAlertDialog @JvmOverloads constructor(context: Context, theme: Int = 0) :
     Dialog(context, R.style.color_dialog) {
@@ -52,6 +54,8 @@ class ChooseAlertDialog @JvmOverloads constructor(context: Context, theme: Int =
         mAnimIn = AnimationLoader.getInAnimation(context)
         mAnimOut = AnimationLoader.getOutAnimation(context)
     }
+
+
 
 
     override fun onCreate(savedInstanceState: Bundle) {

@@ -18,8 +18,8 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import java.security.AccessController.getContext
 
-class PromptDialog @JvmOverloads constructor(context: Context, theme: Int = 0):
-    Dialog (context, R.style.color_dialog) {
+class PromptDialog @JvmOverloads constructor(context: Context):
+    Dialog (context) {
 
     private var mAnimIn: AnimationSet? = null
     private var mAnimOut: AnimationSet? = null
